@@ -1,13 +1,81 @@
+ 
+ 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
-
+ 
 body {
     font-family: 'Ubuntu', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-weight: 400;
+ }
+ 
+#addComment, .formBody {
+    clear: both;
+}
+ 
+#product {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    overflow: hidden;
+ }
+
+.comment {
+    background-color: #FFFFDD;
+    border-radius: 10px;
+    border: solid 2px;
+    list-style: none;
+    margin-bottom: 1em;
+    padding: 0 1em 1em 1em;
+    width: 90%;
+ }
+ 
+.commentForm {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 1em;
+ }
+ 
+.formName, .formTitle {
+    float: left;
+    margin-right: 5%;
+    width: 35%;
+ }
+ 
+.glyphicon-thumbs-up:hover {
+    background-color: green;
+ }
+ 
+.glyphicon-thumbs-down:hover {
+    background-color: red;
+ }
+
+.name {
+    color: #667699;
+    font-style: italic;
 }
 
 .product-picture {
     float: left;
     height: 130px;
     margin-right: 10px;
-}
+ }
+ 
+.rating {
+    display: inline;
+    float: left;
+    padding-right: 1em;
+    padding-top: .25em;
+ }
 
+ .remove {
+    float: right;
+    margin-top: .5em;
+ }
+ 
+.remove:hover {
+    background-color: red;
+ }
+ 
+.title {
+    clear: both;
+    display: inline;
+ }
